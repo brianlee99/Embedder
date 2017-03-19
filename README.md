@@ -1,9 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
-.
+
 
 ## Table of Contents
-- [Scope] (#scope)
-- [Folder Structure](#folder-structure)
+- [Scope](#scope)
 - [Available Scripts](#available-scripts)
   - [npm start](#npm-start)
   - [npm test](#npm-test)
@@ -23,7 +22,6 @@ and https://github.com/bosung90/KimchiFriedRice (server-side)
 
 
 
-## Folder Structure
 ## Available Scripts
 
 In the project directory, you can run:
