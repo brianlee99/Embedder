@@ -10,59 +10,20 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   - [npm run build](#npm-run-build)
   - [npm run eject](#npm-run-eject)
   
-## Problem
-
-Pain to manage subscriptions for small businesses
+## About
+A demo for business who wants to start a subscription model. 
+This website works in conjuction with github.com/amngupta/nwHacks (client-side)
+and https://github.com/bosung90/KimchiFriedRice (server-side)
 
 ## Scope
 
-- [ ] Show a list of subscription types (Basic, Pro, Super)
-- [ ] Click on each subscription item will navigate to subscription detail (subscription title, total users)
-- [ ] Show a list of users subscribed to the plan
-- [ ] Can copy and paste embedded button to show a list of subscription plans
+- [ ] Embedded button for business users to added onto their website
+- [ ] Click on an embedded Scription button will navigate to a credit card payment form
+- [ ] When payment is processed, a new subscriber will be created in the database
 
-User
-- [ ] Sign up with email
-- [ ] Can subscribe to a subscriber
-- [ ] Can purchase a subscription
 
 
 ## Folder Structure
-
-After creation, your project should look like this:
-
-```
-my-app/
-  README.md
-  node_modules/
-  package.json
-  public/
-    index.html
-    favicon.ico
-  src/
-    App.css
-    App.js
-    App.test.js
-    index.css
-    index.js
-```
-
-For the project to build, **these files must exist with exact filenames**:
-
-* `public/index.html` is the page template;
-* `src/index.js` is the JavaScript entry point.
-
-You can delete or rename the other files.
-
-You may create subdirectories inside `src`. For faster rebuilds, only files inside `src` are processed by Webpack.<br>
-You need to **put any JS and CSS files inside `src`**, or Webpack won’t see them.
-
-Only files inside `public` can be used from `public/index.html`.<br>
-Read instructions below for using assets from JavaScript and HTML.
-
-You can, however, create more top-level directories.<br>
-They will not be included in the production build so you can use them for things like documentation.
-
 ## Available Scripts
 
 In the project directory, you can run:
