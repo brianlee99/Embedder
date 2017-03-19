@@ -16,9 +16,9 @@ and https://github.com/bosung90/KimchiFriedRice (server-side)
 
 ## Scope
 
-- [ ] Embedded button for business users to added onto their website
-- [ ] Click on an embedded Scription button will navigate to a credit card payment form
-- [ ] When payment is processed, a new subscriber will be created in the database
+- [x] Embedded button for business users to added onto their website
+- [x] Click on an embedded Scription button will navigate to a credit card payment form
+- [x] When payment is processed, a new subscriber will be created in the database
 
 
 
