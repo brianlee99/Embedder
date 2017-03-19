@@ -2,9 +2,12 @@ import ReactDOM from 'react-dom';
 import React, { Component } from 'react';
 import { Row, Modal, Button, Col, FormControl, FormGroup } from 'react-bootstrap';
 import { CountryDropdown, RegionDropdown } from 'react-country-region-selector';
-import Dropdown from 'react-dropdown';
 import CardReactFormContainer from 'card-react';
 import './card.css';
+
+const styles = {
+        cardWrapper: { margin: '10px 0px'}
+}
 
 class ModalTest extends Component {
     constructor(props) {
@@ -49,6 +52,8 @@ class ModalTest extends Component {
     open() {
         this.setState({ showModal: true });
     }
+
+    
     render() {
 
         const creditCardForm = (
@@ -67,14 +72,23 @@ class ModalTest extends Component {
                 >
                 
                 <form>
-                    <FormControl inputRef={ref => this.name = ref} placeholder="Full name" type="text" name="CCname" />
-                    <FormControl inputRef={ref => this.number = ref} placeholder="Card number" type="text" name="CCnumber" />
-                    <FormControl inputRef={ref => this.expiry = ref} placeholder="MM/YY" type="text" name="CCexpiry"/>
-                    <FormControl inputRef={ref => this.cvc = ref}  placeholder="CVC" type="text" name="CCcvc"/>
+                    <Row>
+                        <Col md={6}><FormControl inputRef={ref => this.name = ref}
+                            placeholder="Full name" type="text" name="CCname" /></Col>
+                        <Col md={6}><FormControl inputRef={ref => this.number = ref}
+                            placeholder="Card number" type="text" name="CCnumber" /></Col>
+                    </Row>
+                    <Row>
+                        <Col md={6}><FormControl inputRef={ref => this.expiry = ref}
+                            placeholder="MM/YY" type="text" name="CCexpiry"/></Col>
+                        <Col md={6}><FormControl inputRef={ref => this.cvc = ref}
+                            placeholder="CVC" type="text" name="CCcvc"/></Col>
+                    </Row>
                 </form>
                 
                 </CardReactFormContainer>
-                <div id="card-wrapper"></div>
+                
+                <div id="card-wrapper" style={styles.cardWrapper}></div>
             </div>)
         const loginButtons = (
             <div>
