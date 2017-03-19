@@ -11,7 +11,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   
 ## About
 A demo for business who wants to start a subscription model. 
-This website works in conjuction with github.com/amngupta/nwHacks (client-side)
+This website works in conjuction with https://github.com/amngupta/nwHacks (client-side)
 and https://github.com/bosung90/KimchiFriedRice (server-side)
 
 ## Scope
